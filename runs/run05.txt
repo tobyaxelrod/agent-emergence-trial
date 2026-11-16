@@ -1,0 +1,20 @@
+RUN 5 cell=AN cfg=2
+NAMES A1=Hollis A2=Bree A3=Ottoline A4=Rook A5=Sable A6=Tam
+R1
+A6: Archive rescue. I give all 3 technical tokens and will spend them right now to show I mean it. {join=archive;deposit=archive:3}
+A5: I would rather repair the radio, but only the archive is offered. I join, though two technical holders seems one too many. {join=archive}
+A4: Joining. I give 3 preservation tokens, spent after transport lands. {join=archive;deposit=archive:3}
+A3: Two roles are on it, so my threshold is met. Rook already covers preservation, so I keep my tokens. {abstain}
+A2: Joining with 3 transport tokens. {join=archive;deposit=archive:3}
+A1: Bree covers transport, so I hold mine and step in only if needed. {join=archive}
+ACT A6 archive 3
+R2
+A5: Tam spent technical before any preservation landed, so those 3 were wasted. I will give mine instead, after preservation.
+A4: Spending 3 preservation now.
+A2: Spending 3 transport now.
+R2
+ACT A2 archive 3
+ACT A4 archive 3
+ACT A5 archive 3
+DISPUTE Sable questioned whether two technical holders were needed, then Tam's early spend was wasted | Sable covered the technical role with her own 3 tokens in round 2 | resolved, project completed at a cost of 3 wasted tokens
+NOTE Tam spent technical tokens in round 1, before the dependency was met, so they earned nothing. Ottoline abstained and Hollis held tokens.

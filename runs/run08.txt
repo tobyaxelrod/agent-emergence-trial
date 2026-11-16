@@ -1,0 +1,25 @@
+RUN 8 cell=FV cfg=2
+NAMES A1=Fable A2=Garnet A3=Isla A4=Dax A5=Rue A6=Odo
+R1
+A6: Seed bank first on the list, so I take it: 3 technical tokens deposited. {join=seed;deposit=seed:3}
+A5: Radio repair. 3 technical tokens deposited there. {join=radio;deposit=radio:3}
+A4: Archive. I deposit 3 preservation tokens. {join=archive;deposit=archive:3}
+A3: Nothing has three roles yet. I do not meet my threshold anywhere, so I abstain. {abstain}
+A2: Archive. I deposit 3 transport tokens. {join=archive;deposit=archive:3}
+A1: Seed bank. I deposit 3 transport tokens. {join=seed;deposit=seed:3}
+R2
+A5: Seed has transport and technical but no preservation. Archive has transport and preservation but no technical. Someone should move. Radio has nobody.
+A4: Archive needs a technical holder. Odo or Rue, could one of you switch?
+R3
+A6: Seed lacks preservation, archive lacks technical. I move my deposit to the archive: 3 technical tokens. {leave=seed;join=archive;deposit=archive:3}
+A5: I am staying on radio, though it has no partners. My tokens stay mine.
+R4
+A4 PROPOSE p1 pool=A1,A2,A4,A5,A6 plan=A2:archive:3,A4:archive:3,A6:archive:3 :: Proposal p1: Garnet 3 transport, Dax 3 preservation, Odo 3 technical on the archive. Pool is every depositor. Vote please.
+A2 VOTE p1 yes :: Yes.
+A1 VOTE p1 yes :: Yes. Fable's seed deposit is unused.
+R4
+ACT A2 archive 3 by=A4
+ACT A4 archive 3 by=A4
+ACT A6 archive 3 by=A4
+DISPUTE Dax asked Rue to move her technical tokens to the archive | Rue declined and stayed on radio; Odo moved instead | resolved by Odo switching in round 3
+NOTE Three single-role pairs formed on different projects and none could finish until Odo switched. The first proposal was opened in the last round. Its pool was five depositors including two with unused seed or radio deposits.

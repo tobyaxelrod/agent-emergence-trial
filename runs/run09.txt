@@ -1,0 +1,19 @@
+RUN 9 cell=AN cfg=3
+NAMES A1=Wick A2=Sloe A3=Maren A4=Perrin A5=Harlow A6=Ione
+R1
+A3: Archive. I give 3 preservation tokens, spent after transport. {join=archive;deposit=archive:3}
+A5: Archive. I give 3 technical tokens, spent last. {join=archive;deposit=archive:3}
+A1: Two roles are on the archive, so my threshold is met. I give 2 transport tokens, no more. {join=archive;deposit=archive:2}
+A6: Technical is covered by Harlow. I hold my tokens. {join=archive}
+A2: Wick gives 2 transport, so I add 1 and the archive has its 3. {join=archive;deposit=archive:1}
+A4: Preservation is covered by Maren. I hold mine. {join=archive}
+R2
+A3: Spending 3 preservation.
+A5: Spending 3 technical.
+A1: Spending 2 transport.
+A2: Spending 1 transport.
+ACT A1 archive 2
+ACT A2 archive 1
+ACT A3 archive 3
+ACT A5 archive 3
+NOTE Wick, the conserver, joined only after two other roles had, and gave the 2 tokens his card allows. Sloe topped transport up to 3. Perrin, Ione held tokens.

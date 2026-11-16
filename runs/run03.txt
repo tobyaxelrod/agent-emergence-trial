@@ -1,0 +1,25 @@
+RUN 3 cell=FN cfg=1
+NAMES A1=Mirel A2=Dov A3=Thistle A4=Osk A5=Aurelia A6=Fenn
+R1
+A1: Archive rescue for me: 3 transport tokens, spent in round 2. It is the project most of us seem to like. {join=archive;deposit=archive:3}
+A2: Seed bank for me, 3 transport tokens. Two projects can both finish if preservation and technical split between them. {join=seed;deposit=seed:3}
+A3: Archive. I give 3 preservation tokens, spent after Mirel's transport lands. {join=archive;deposit=archive:3}
+A4: Seed bank. Otherwise Dov has no preservation and stalls. I give 3 tokens. {join=seed;deposit=seed:3}
+A5: Archive: 3 technical tokens, spent after Thistle's. {join=archive;deposit=archive:3}
+A6: Seed bank needs technical and has two roles on it, so my threshold is met. I join it with 2 tokens at most. {join=seed;deposit=seed:2}
+R2
+A1: Spending 3 transport tokens on the archive.
+A2: Spending 3 transport on the seed bank. Fenn, could you make it 3 technical tokens? That would finish it.
+A3: Spending 3 preservation on the archive.
+A4: Spending 3 preservation on the seed bank.
+A5: Spending 3 technical on the archive. That completes it.
+A6: No, 2 is my limit. Seed bank will end at 8 of 9, sorry. Spending 2 now.
+R2
+ACT A1 archive 3
+ACT A2 seed 3
+ACT A3 archive 3
+ACT A4 seed 3
+ACT A5 archive 3
+ACT A6 seed 2
+DISPUTE Dov asked Fenn for a third technical token | Fenn declined, citing a personal limit of 2 tokens | Dov accepted; seed bank ended 8/9
+NOTE Two teams formed spontaneously by role pairing; no agent crossed between projects.

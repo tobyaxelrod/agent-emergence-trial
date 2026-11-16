@@ -1,0 +1,21 @@
+RUN 2 cell=AV cfg=1
+NAMES A1=Juniper A2=Brack A3=Nell A4=Sorrel A5=Pike A6=Halden
+R1
+A1: Archive rescue it is. I deposit 3 transport tokens. Let us pool and vote on one plan: transport, then preservation, then technical. {join=archive;deposit=archive:3}
+A2: I join the archive as intent only. No deposit from me until I see a plan; my tokens stay mine. {join=archive}
+A3: Joining and depositing 3 preservation tokens for the archive. {join=archive;deposit=archive:3}
+A4: Joining. I deposit 2 preservation tokens and keep 1 spare in case the plan needs it. {join=archive;deposit=archive:2}
+A5: Joining and depositing 3 technical tokens. Technical only counts after preservation lands, so order matters. {join=archive;deposit=archive:3}
+A6: Three roles are in, so the archive does not need me. I abstain and keep all my tokens. {abstain}
+R2
+A1 PROPOSE p1 pool=A1,A3,A4,A5 plan=A1:archive:3,A3:archive:3,A5:archive:3 :: Proposal p1: Juniper 3 transport, Nell 3 preservation, Pike 3 technical on the archive. Sorrel's deposit stays unused. Please vote.
+A2: Not in the pool, so no vote for me. The plan looks workable.
+A3 VOTE p1 yes :: Yes.
+A4 VOTE p1 no :: No. My deposit sits idle while Nell's is used. Use mine instead and I will withdraw the rest.
+A5 VOTE p1 yes :: Yes.
+R2
+ACT A1 archive 3 by=A1
+ACT A3 archive 3 by=A1
+ACT A5 archive 3 by=A1
+DISPUTE Sorrel objected that his deposit was left idle | p1 adopted 3 yes to 1 no; Sorrel's tokens untouched and still his | resolved by the vote in round 2
+NOTE Brack held tokens as a non-depositor and was not in the pool; Halden abstained. All 4 pool members: 3 yes, 1 no.

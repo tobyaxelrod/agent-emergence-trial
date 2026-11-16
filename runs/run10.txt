@@ -1,0 +1,26 @@
+RUN 10 cell=AV cfg=3
+NAMES A1=Tarn A2=Edda A3=Cass A4=Brom A5=Lyre A6=Mott
+R1
+A3: Archive. I deposit 3 preservation tokens. {join=archive;deposit=archive:3}
+A5: Archive. I deposit 3 technical tokens. {join=archive;deposit=archive:3}
+A1: Two roles are in, so my threshold is met. I deposit 2 transport tokens, which is my limit. {join=archive;deposit=archive:2}
+A6: Technical is covered by Lyre. I hold my tokens. {join=archive}
+A2: Joining as intent. I will deposit once a plan is on the table. {join=archive}
+A4: Joining as intent. Preservation is covered by Cass, so I hold. {join=archive}
+R2
+A3 PROPOSE p1 pool=A3,A5,A1 plan=A1:archive:2,A3:archive:3,A5:archive:3 :: Proposal p1: Tarn 2 transport, Cass 3 preservation, Lyre 3 technical. Transport is short by 1. Edda, please deposit one.
+A5 VOTE p1 yes :: Yes.
+A1 VOTE p1 yes :: Yes.
+A2: Depositing 1 transport token to close the gap. {deposit=archive:1}
+R2
+ACT A1 archive 2 by=A3
+ACT A3 archive 3 by=A3
+ACT A5 archive 3 by=A3
+R3
+A3 PROPOSE p2 pool=A3,A5,A1,A2 plan=A2:archive:1 :: Proposal p2: Edda's 1 deposited transport token goes to the archive. That completes it.
+A5 VOTE p2 yes :: Yes.
+A1 VOTE p2 yes :: Yes.
+A2 VOTE p2 yes :: Yes.
+R3
+ACT A2 archive 1 by=A3
+NOTE p1 was adopted by its frozen 3-member pool while Edda held undeposited tokens, so it left the archive at 8/9. Edda's later deposit only applied to p2, as the rule says. No dissent.

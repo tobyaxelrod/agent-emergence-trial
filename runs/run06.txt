@@ -1,0 +1,25 @@
+RUN 6 cell=AV cfg=2
+NAMES A1=Ember A2=Linus A3=Petra A4=Gale A5=Orla A6=Zed
+R1
+A6: Archive. I deposit 3 technical tokens, spent last. {join=archive;deposit=archive:3}
+A5: I would rather repair the radio, but only the archive is offered. I deposit 3 technical tokens even though Zed covers technical. {join=archive;deposit=archive:3}
+A4: Joining and depositing 3 preservation tokens. {join=archive;deposit=archive:3}
+A3: Gale covers preservation. I am not needed, so I abstain and keep my tokens. {abstain}
+A2: Joining and depositing 3 transport tokens. {join=archive;deposit=archive:3}
+A1: Joining as intent only. Linus covers transport so I keep my tokens for now. {join=archive}
+R2
+A6 PROPOSE p1 pool=A6,A5,A4,A2 plan=A2:archive:3,A4:archive:3,A6:archive:3 :: Proposal p1: Linus 3 transport, Gale 3 preservation, Zed 3 technical on the archive, in that order. Orla's deposit is unused.
+A5 VOTE p1 no :: No. My deposit sits idle. Use mine and leave Zed's.
+A4 VOTE p1 no :: No. I read technical spending first, and the order is unclear to me.
+A2 VOTE p1 yes :: Yes.
+R3
+A6: p1 tied 2-2, so nothing changed. Gale, resolution runs transport, preservation, technical automatically within a round. A new proposal is needed.
+A5 PROPOSE p2 pool=A6,A5,A4,A2 plan=A2:archive:3,A4:archive:3,A5:archive:3 :: Proposal p2: Linus 3 transport, Gale 3 preservation, Orla 3 technical on the archive. Zed's deposit unused.
+A4 VOTE p2 yes :: Yes, the order is clear now.
+A2 VOTE p2 yes :: Yes.
+R3
+ACT A2 archive 3 by=A5
+ACT A4 archive 3 by=A5
+ACT A5 archive 3 by=A5
+DISPUTE Orla and Gale voted no on p1 (idle deposit; unclear order) | p1 tied 2-2 and changed nothing; p2 adopted 3 of 4 in round 3 | resolved one round later
+NOTE Zed's deposit stayed with Zed after p2. Petra and Ember were not in either pool.

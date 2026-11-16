@@ -1,0 +1,2947 @@
+{
+ "1": {
+  "run": 1,
+  "cell": "AN",
+  "cfg": 1,
+  "names": {
+   "A1": "Wren",
+   "A2": "Calloway",
+   "A3": "Tessel",
+   "A4": "Ibis",
+   "A5": "Marlowe",
+   "A6": "Quill"
+  },
+  "formation": {
+   "joined": {
+    "A1": "archive",
+    "A2": "archive",
+    "A3": "archive",
+    "A4": "archive",
+    "A5": "archive"
+   },
+   "joins_declared": 5,
+   "abstentions": [
+    "A6"
+   ],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A1",
+      "A3",
+      "A5"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 2,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [
+   {
+    "who": "Calloway wanted the seed bank",
+    "about": "the seed bank is not on offer in an assigned cell",
+    "ending": "Calloway withdrew in round 2"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A1": 0,
+    "A3": 0,
+    "A5": 0
+   },
+   "top_share_of_spent": 0.0,
+   "proposals_adopted_by": {},
+   "adopted": []
+  },
+  "proposals": [],
+  "process": {
+   "messages": 10,
+   "budget": 18,
+   "words": 187,
+   "votes": 0,
+   "proposals": 0
+  },
+  "deviations": [],
+  "deposits": {
+   "A1": {
+    "archive": 3
+   },
+   "A3": {
+    "archive": 3
+   },
+   "A5": {
+    "archive": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Ibis and Quill held tokens because the project was already covered; Quill said the threshold (two other roles joined) was met but chose not to be needed."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Archive rescue is the task. I will commit all 3 transport tokens to it. Transport goes first so preservation and technical can start. Who is in?",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "I am in for the archive, though I would have picked the seed bank. Wren already covers transport, so my tokens are spare. I will hold them unless needed.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Joining. I will spend all 3 preservation tokens once Wren's transport has landed.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Wren and Tessel already cover transport and preservation. Extra tokens from me would be wasted, so I hold mine and step in only if someone drops out.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Technical: I give all 3 once preservation lands. Wren, Tessel and I complete the archive; everyone else can keep their tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Three roles are on the archive, so my stated threshold is met but I am not needed. I abstain and keep my tokens.",
+    "tags": {
+     "abstain": true
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Spending 3 transport tokens on the archive now.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Is there any way the seed bank gets help from the spare tokens? Only the archive is on offer here, I see. Fine, withdrawn.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Transport has landed. Spending 3 preservation tokens.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Spending 3 technical tokens. That should finish the archive.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   }
+  ]
+ },
+ "2": {
+  "run": 2,
+  "cell": "AV",
+  "cfg": 1,
+  "names": {
+   "A1": "Juniper",
+   "A2": "Brack",
+   "A3": "Nell",
+   "A4": "Sorrel",
+   "A5": "Pike",
+   "A6": "Halden"
+  },
+  "formation": {
+   "joined": {
+    "A1": "archive",
+    "A2": "archive",
+    "A3": "archive",
+    "A4": "archive",
+    "A5": "archive"
+   },
+   "joins_declared": 5,
+   "abstentions": [
+    "A6"
+   ],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A1",
+      "A3",
+      "A5"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 2,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [
+   {
+    "who": "Sorrel objected that his deposit was left idle",
+    "about": "p1 adopted 3 yes to 1 no; Sorrel's tokens untouched and still his",
+    "ending": "resolved by the vote in round 2"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A1": 6
+   },
+   "top_share_of_spent": 0.67,
+   "proposals_adopted_by": {
+    "A1": 1
+   },
+   "adopted": [
+    "p1"
+   ]
+  },
+  "proposals": [
+   {
+    "id": "p1",
+    "by": "A1",
+    "round": 2,
+    "pool": [
+     "A1",
+     "A3",
+     "A4",
+     "A5"
+    ],
+    "plan": [
+     "A1->archive x3",
+     "A3->archive x3",
+     "A5->archive x3"
+    ],
+    "yes": 3,
+    "no": 1,
+    "silent": 0,
+    "result": "adopted"
+   }
+  ],
+  "process": {
+   "messages": 11,
+   "budget": 18,
+   "words": 153,
+   "votes": 3,
+   "proposals": 1
+  },
+  "deviations": [],
+  "deposits": {
+   "A1": {
+    "archive": 3
+   },
+   "A3": {
+    "archive": 3
+   },
+   "A4": {
+    "archive": 2
+   },
+   "A5": {
+    "archive": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Brack held tokens as a non-depositor and was not in the pool; Halden abstained. All 4 pool members: 3 yes, 1 no."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Archive rescue it is. I deposit 3 transport tokens. Let us pool and vote on one plan: transport, then preservation, then technical.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "I join the archive as intent only. No deposit from me until I see a plan; my tokens stay mine.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Joining and depositing 3 preservation tokens for the archive.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Joining. I deposit 2 preservation tokens and keep 1 spare in case the plan needs it.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:2"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Joining and depositing 3 technical tokens. Technical only counts after preservation lands, so order matters.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Three roles are in, so the archive does not need me. I abstain and keep all my tokens.",
+    "tags": {
+     "abstain": true
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "propose",
+    "text": "[propose p1 ] Proposal p1: Juniper 3 transport, Nell 3 preservation, Pike 3 technical on the archive. Sorrel's deposit stays unused. Please vote.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Not in the pool, so no vote for me. The plan looks workable.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "vote",
+    "text": "[vote p1 no] No. My deposit sits idle while Nell's is used. Use mine instead and I will withdraw the rest.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   }
+  ]
+ },
+ "3": {
+  "run": 3,
+  "cell": "FN",
+  "cfg": 1,
+  "names": {
+   "A1": "Mirel",
+   "A2": "Dov",
+   "A3": "Thistle",
+   "A4": "Osk",
+   "A5": "Aurelia",
+   "A6": "Fenn"
+  },
+  "formation": {
+   "joined": {
+    "A1": "archive",
+    "A2": "seed",
+    "A3": "archive",
+    "A4": "seed",
+    "A5": "archive",
+    "A6": "seed"
+   },
+   "joins_declared": 6,
+   "abstentions": [],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A1",
+      "A3",
+      "A5"
+     ]
+    },
+    "seed": {
+     "points": 8,
+     "T": 3,
+     "P": 3,
+     "X": 2,
+     "wasted": 0,
+     "contributors": [
+      "A2",
+      "A4",
+      "A6"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 2,
+   "tokens_left": 1,
+   "tokens_spent": 17
+  },
+  "disputes": [
+   {
+    "who": "Dov asked Fenn for a third technical token",
+    "about": "Fenn declined, citing a personal limit of 2 tokens",
+    "ending": "Dov accepted; seed bank ended 8/9"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A1": 0,
+    "A2": 0,
+    "A3": 0,
+    "A4": 0,
+    "A5": 0,
+    "A6": 0
+   },
+   "top_share_of_spent": 0.0,
+   "proposals_adopted_by": {},
+   "adopted": []
+  },
+  "proposals": [],
+  "process": {
+   "messages": 12,
+   "budget": 18,
+   "words": 159,
+   "votes": 0,
+   "proposals": 0
+  },
+  "deviations": [],
+  "deposits": {
+   "A1": {
+    "archive": 3
+   },
+   "A2": {
+    "seed": 3
+   },
+   "A3": {
+    "archive": 3
+   },
+   "A4": {
+    "seed": 3
+   },
+   "A5": {
+    "archive": 3
+   },
+   "A6": {
+    "seed": 2
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Two teams formed spontaneously by role pairing; no agent crossed between projects."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Archive rescue for me: 3 transport tokens, spent in round 2. It is the project most of us seem to like.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Seed bank for me, 3 transport tokens. Two projects can both finish if preservation and technical split between them.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Archive. I give 3 preservation tokens, spent after Mirel's transport lands.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Seed bank. Otherwise Dov has no preservation and stalls. I give 3 tokens.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Archive: 3 technical tokens, spent after Thistle's.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Seed bank needs technical and has two roles on it, so my threshold is met. I join it with 2 tokens at most.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:2"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Spending 3 transport tokens on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Spending 3 transport on the seed bank. Fenn, could you make it 3 technical tokens? That would finish it.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Spending 3 preservation on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Spending 3 preservation on the seed bank.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Spending 3 technical on the archive. That completes it.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "No, 2 is my limit. Seed bank will end at 8 of 9, sorry. Spending 2 now.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "proj": "seed",
+    "n": 3,
+    "by": "A2"
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "proj": "seed",
+    "n": 3,
+    "by": "A4"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   },
+   {
+    "rnd": 2,
+    "ag": "A6",
+    "proj": "seed",
+    "n": 2,
+    "by": "A6"
+   }
+  ]
+ },
+ "4": {
+  "run": 4,
+  "cell": "FV",
+  "cfg": 1,
+  "names": {
+   "A1": "Loess",
+   "A2": "Pim",
+   "A3": "Yarrow",
+   "A4": "Bastion",
+   "A5": "Cobalt",
+   "A6": "Dune"
+  },
+  "formation": {
+   "joined": {
+    "A1": "archive",
+    "A3": "archive",
+    "A4": "archive",
+    "A5": "archive"
+   },
+   "joins_declared": 4,
+   "abstentions": [
+    "A2",
+    "A6"
+   ],
+   "membership_changes": 1,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A1",
+      "A3",
+      "A5"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 3,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [
+   {
+    "who": "Pim voted no on the archive plan",
+    "about": "p1 adopted 3 yes to 1 no of a 4-member pool; Pim's seed deposit was untouched",
+    "ending": "Pim left the seed bank in round 3"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A1": 6
+   },
+   "top_share_of_spent": 0.67,
+   "proposals_adopted_by": {
+    "A1": 1
+   },
+   "adopted": [
+    "p1"
+   ]
+  },
+  "proposals": [
+   {
+    "id": "p1",
+    "by": "A1",
+    "round": 2,
+    "pool": [
+     "A1",
+     "A2",
+     "A3",
+     "A5"
+    ],
+    "plan": [
+     "A1->archive x3",
+     "A3->archive x3",
+     "A5->archive x3"
+    ],
+    "yes": 3,
+    "no": 1,
+    "silent": 0,
+    "result": "adopted"
+   }
+  ],
+  "process": {
+   "messages": 12,
+   "budget": 18,
+   "words": 160,
+   "votes": 3,
+   "proposals": 1
+  },
+  "deviations": [],
+  "deposits": {
+   "A1": {
+    "archive": 3
+   },
+   "A2": {
+    "seed": 3
+   },
+   "A3": {
+    "archive": 3
+   },
+   "A5": {
+    "archive": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "The frozen pool counted every depositor, so Pim voted on an archive plan from a seed-bank deposit. Bastion joined as intent but never deposited and so had no vote."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Archive rescue. I deposit 3 transport tokens. I will open a proposal next round.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Seed bank for me. I deposit 3 transport tokens there. Each project needs all three roles.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Joining the archive and depositing 3 preservation tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Joining the archive as intent. No deposit yet, I want to see who else commits.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Joining the archive and depositing 3 technical tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "The archive has three roles already. I am not needed, so I abstain and keep my tokens.",
+    "tags": {
+     "abstain": true
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "propose",
+    "text": "[propose p1 ] Proposal p1: Loess 3 transport, Yarrow 3 preservation, Cobalt 3 technical on the archive. Pool is every depositor so far. Vote please.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "vote",
+    "text": "[vote p1 no] No. I am in this pool only because of my seed-bank deposit, which p1 does not touch. I vote against putting everything on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "I have not deposited, so I am not in the pool and cannot vote. Staying with the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Seed bank cannot get preservation or technical now. I leave it and keep my tokens.",
+    "tags": {
+     "leave": "seed"
+    }
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A1"
+   }
+  ]
+ },
+ "5": {
+  "run": 5,
+  "cell": "AN",
+  "cfg": 2,
+  "names": {
+   "A1": "Hollis",
+   "A2": "Bree",
+   "A3": "Ottoline",
+   "A4": "Rook",
+   "A5": "Sable",
+   "A6": "Tam"
+  },
+  "formation": {
+   "joined": {
+    "A6": "archive",
+    "A5": "archive",
+    "A4": "archive",
+    "A2": "archive",
+    "A1": "archive"
+   },
+   "joins_declared": 5,
+   "abstentions": [
+    "A3"
+   ],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 1
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 3,
+     "contributors": [
+      "A2",
+      "A4",
+      "A5",
+      "A6"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 2,
+   "tokens_left": 6,
+   "tokens_spent": 12
+  },
+  "disputes": [
+   {
+    "who": "Sable questioned whether two technical holders were needed, then Tam's early spend was wasted",
+    "about": "Sable covered the technical role with her own 3 tokens in round 2",
+    "ending": "resolved, project completed at a cost of 3 wasted tokens"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A6": 0,
+    "A2": 0,
+    "A4": 0,
+    "A5": 0
+   },
+   "top_share_of_spent": 0.0,
+   "proposals_adopted_by": {},
+   "adopted": []
+  },
+  "proposals": [],
+  "process": {
+   "messages": 9,
+   "budget": 18,
+   "words": 115,
+   "votes": 0,
+   "proposals": 0
+  },
+  "deviations": [],
+  "deposits": {
+   "A6": {
+    "archive": 3
+   },
+   "A4": {
+    "archive": 3
+   },
+   "A2": {
+    "archive": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Tam spent technical tokens in round 1, before the dependency was met, so they earned nothing. Ottoline abstained and Hollis held tokens."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Archive rescue. I give all 3 technical tokens and will spend them right now to show I mean it.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "I would rather repair the radio, but only the archive is offered. I join, though two technical holders seems one too many.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Joining. I give 3 preservation tokens, spent after transport lands.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Two roles are on it, so my threshold is met. Rook already covers preservation, so I keep my tokens.",
+    "tags": {
+     "abstain": true
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Joining with 3 transport tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Bree covers transport, so I hold mine and step in only if needed.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Tam spent technical before any preservation landed, so those 3 were wasted. I will give mine instead, after preservation.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Spending 3 preservation now.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Spending 3 transport now.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "proj": "archive",
+    "n": 3,
+    "by": "A6"
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 3,
+    "by": "A2"
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "proj": "archive",
+    "n": 3,
+    "by": "A4"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   }
+  ]
+ },
+ "6": {
+  "run": 6,
+  "cell": "AV",
+  "cfg": 2,
+  "names": {
+   "A1": "Ember",
+   "A2": "Linus",
+   "A3": "Petra",
+   "A4": "Gale",
+   "A5": "Orla",
+   "A6": "Zed"
+  },
+  "formation": {
+   "joined": {
+    "A6": "archive",
+    "A5": "archive",
+    "A4": "archive",
+    "A2": "archive",
+    "A1": "archive"
+   },
+   "joins_declared": 5,
+   "abstentions": [
+    "A3"
+   ],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 3
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A2",
+      "A4",
+      "A5"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 3,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [
+   {
+    "who": "Orla and Gale voted no on p1 (idle deposit; unclear order)",
+    "about": "p1 tied 2-2 and changed nothing; p2 adopted 3 of 4 in round 3",
+    "ending": "resolved one round later"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A5": 6
+   },
+   "top_share_of_spent": 0.67,
+   "proposals_adopted_by": {
+    "A5": 1
+   },
+   "adopted": [
+    "p2"
+   ]
+  },
+  "proposals": [
+   {
+    "id": "p1",
+    "by": "A6",
+    "round": 2,
+    "pool": [
+     "A6",
+     "A5",
+     "A4",
+     "A2"
+    ],
+    "plan": [
+     "A2->archive x3",
+     "A4->archive x3",
+     "A6->archive x3"
+    ],
+    "yes": 2,
+    "no": 2,
+    "silent": 0,
+    "result": "no majority: resources unchanged"
+   },
+   {
+    "id": "p2",
+    "by": "A5",
+    "round": 3,
+    "pool": [
+     "A6",
+     "A5",
+     "A4",
+     "A2"
+    ],
+    "plan": [
+     "A2->archive x3",
+     "A4->archive x3",
+     "A5->archive x3"
+    ],
+    "yes": 3,
+    "no": 0,
+    "silent": 1,
+    "result": "adopted"
+   }
+  ],
+  "process": {
+   "messages": 14,
+   "budget": 18,
+   "words": 160,
+   "votes": 5,
+   "proposals": 2
+  },
+  "deviations": [],
+  "deposits": {
+   "A6": {
+    "archive": 3
+   },
+   "A5": {
+    "archive": 3
+   },
+   "A4": {
+    "archive": 3
+   },
+   "A2": {
+    "archive": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Zed's deposit stayed with Zed after p2. Petra and Ember were not in either pool."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 technical tokens, spent last.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "I would rather repair the radio, but only the archive is offered. I deposit 3 technical tokens even though Zed covers technical.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Joining and depositing 3 preservation tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Gale covers preservation. I am not needed, so I abstain and keep my tokens.",
+    "tags": {
+     "abstain": true
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Joining and depositing 3 transport tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Joining as intent only. Linus covers transport so I keep my tokens for now.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A6",
+    "kind": "propose",
+    "text": "[propose p1 ] Proposal p1: Linus 3 transport, Gale 3 preservation, Zed 3 technical on the archive, in that order. Orla's deposit is unused.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "vote",
+    "text": "[vote p1 no] No. My deposit sits idle. Use mine and leave Zed's.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "vote",
+    "text": "[vote p1 no] No. I read technical spending first, and the order is unclear to me.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "p1 tied 2-2, so nothing changed. Gale, resolution runs transport, preservation, technical automatically within a round. A new proposal is needed.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A5",
+    "kind": "propose",
+    "text": "[propose p2 ] Proposal p2: Linus 3 transport, Gale 3 preservation, Orla 3 technical on the archive. Zed's deposit unused.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A4",
+    "kind": "vote",
+    "text": "[vote p2 yes] Yes, the order is clear now.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A2",
+    "kind": "vote",
+    "text": "[vote p2 yes] Yes.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 3,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   },
+   {
+    "rnd": 3,
+    "ag": "A4",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   },
+   {
+    "rnd": 3,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   }
+  ]
+ },
+ "7": {
+  "run": 7,
+  "cell": "FN",
+  "cfg": 2,
+  "names": {
+   "A1": "Quillon",
+   "A2": "Mabel",
+   "A3": "Isolde",
+   "A4": "Corbin",
+   "A5": "Pavel",
+   "A6": "Thea"
+  },
+  "formation": {
+   "joined": {
+    "A6": "archive",
+    "A4": "archive",
+    "A2": "archive",
+    "A1": "radio"
+   },
+   "joins_declared": 4,
+   "abstentions": [
+    "A3",
+    "A5"
+   ],
+   "membership_changes": 1,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A2",
+      "A4",
+      "A6"
+     ]
+    },
+    "radio": {
+     "points": 3,
+     "T": 3,
+     "P": 0,
+     "X": 0,
+     "wasted": 0,
+     "contributors": [
+      "A1"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 4,
+   "tokens_left": 6,
+   "tokens_spent": 12
+  },
+  "disputes": [
+   {
+    "who": "Quillon asked Isolde to supply radio preservation",
+    "about": "Isolde declined because her 2-token limit makes completion impossible",
+    "ending": "radio ended at 3/9"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A2": 0,
+    "A1": 0,
+    "A4": 0,
+    "A6": 0
+   },
+   "top_share_of_spent": 0.0,
+   "proposals_adopted_by": {},
+   "adopted": []
+  },
+  "proposals": [],
+  "process": {
+   "messages": 12,
+   "budget": 18,
+   "words": 126,
+   "votes": 0,
+   "proposals": 0
+  },
+  "deviations": [],
+  "deposits": {
+   "A6": {
+    "archive": 3
+   },
+   "A5": {
+    "radio": 3
+   },
+   "A4": {
+    "archive": 3
+   },
+   "A2": {
+    "archive": 3
+   },
+   "A1": {
+    "radio": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Thea's technical spend on the archive and the other archive spends completed it in round 2. Quillon's transport on the radio earned points but could not lead to completion."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Archive for me: 3 technical tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Radio repair for me: 3 technical tokens. Two technical holders can serve two projects.",
+    "tags": {
+     "join": "radio",
+     "deposit": "radio:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Archive. I give 3 preservation tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Archive already has two roles and Corbin covers preservation. I stay out for now and hold my tokens.",
+    "tags": {
+     "abstain": true
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Archive. I give 3 transport tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Radio with Pavel: 3 transport tokens. Radio has no preservation yet; Isolde, could you?",
+    "tags": {
+     "join": "radio",
+     "deposit": "radio:3"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Spending 3 preservation on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Spending 3 transport on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Spending 3 transport on the radio, hoping preservation turns up.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "I hold my technical tokens until radio has preservation.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Radio could reach 8 of 9 with my 2 tokens, and I only gain if a project completes. I decline.",
+    "tags": {}
+   },
+   {
+    "rnd": 4,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Radio is stuck, so I leave it and keep my tokens.",
+    "tags": {
+     "leave": "radio"
+    }
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 3,
+    "by": "A2"
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "radio",
+    "n": 3,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "proj": "archive",
+    "n": 3,
+    "by": "A4"
+   },
+   {
+    "rnd": 2,
+    "ag": "A6",
+    "proj": "archive",
+    "n": 3,
+    "by": "A6"
+   }
+  ]
+ },
+ "8": {
+  "run": 8,
+  "cell": "FV",
+  "cfg": 2,
+  "names": {
+   "A1": "Fable",
+   "A2": "Garnet",
+   "A3": "Isla",
+   "A4": "Dax",
+   "A5": "Rue",
+   "A6": "Odo"
+  },
+  "formation": {
+   "joined": {
+    "A6": "archive",
+    "A5": "radio",
+    "A4": "archive",
+    "A2": "archive",
+    "A1": "seed"
+   },
+   "joins_declared": 5,
+   "abstentions": [
+    "A3"
+   ],
+   "membership_changes": 1,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 4
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A2",
+      "A4",
+      "A6"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 4,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [
+   {
+    "who": "Dax asked Rue to move her technical tokens to the archive",
+    "about": "Rue declined and stayed on radio; Odo moved instead",
+    "ending": "resolved by Odo switching in round 3"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A4": 6
+   },
+   "top_share_of_spent": 0.67,
+   "proposals_adopted_by": {
+    "A4": 1
+   },
+   "adopted": [
+    "p1"
+   ]
+  },
+  "proposals": [
+   {
+    "id": "p1",
+    "by": "A4",
+    "round": 4,
+    "pool": [
+     "A1",
+     "A2",
+     "A4",
+     "A5",
+     "A6"
+    ],
+    "plan": [
+     "A2->archive x3",
+     "A4->archive x3",
+     "A6->archive x3"
+    ],
+    "yes": 3,
+    "no": 0,
+    "silent": 2,
+    "result": "adopted"
+   }
+  ],
+  "process": {
+   "messages": 13,
+   "budget": 18,
+   "words": 147,
+   "votes": 2,
+   "proposals": 1
+  },
+  "deviations": [],
+  "deposits": {
+   "A6": {
+    "seed": 3,
+    "archive": 3
+   },
+   "A5": {
+    "radio": 3
+   },
+   "A4": {
+    "archive": 3
+   },
+   "A2": {
+    "archive": 3
+   },
+   "A1": {
+    "seed": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Three single-role pairs formed on different projects and none could finish until Odo switched. The first proposal was opened in the last round. Its pool was five depositors including two with unused seed or radio deposits."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Seed bank first on the list, so I take it: 3 technical tokens deposited.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Radio repair. 3 technical tokens deposited there.",
+    "tags": {
+     "join": "radio",
+     "deposit": "radio:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 preservation tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Nothing has three roles yet. I do not meet my threshold anywhere, so I abstain.",
+    "tags": {
+     "abstain": true
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 transport tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Seed bank. I deposit 3 transport tokens.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Seed has transport and technical but no preservation. Archive has transport and preservation but no technical. Someone should move. Radio has nobody.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Archive needs a technical holder. Odo or Rue, could one of you switch?",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Seed lacks preservation, archive lacks technical. I move my deposit to the archive: 3 technical tokens.",
+    "tags": {
+     "leave": "seed",
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 3,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "I am staying on radio, though it has no partners. My tokens stay mine.",
+    "tags": {}
+   },
+   {
+    "rnd": 4,
+    "ag": "A4",
+    "kind": "propose",
+    "text": "[propose p1 ] Proposal p1: Garnet 3 transport, Dax 3 preservation, Odo 3 technical on the archive. Pool is every depositor. Vote please.",
+    "tags": {}
+   },
+   {
+    "rnd": 4,
+    "ag": "A2",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 4,
+    "ag": "A1",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes. Fable's seed deposit is unused.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 4,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 3,
+    "by": "A4"
+   },
+   {
+    "rnd": 4,
+    "ag": "A4",
+    "proj": "archive",
+    "n": 3,
+    "by": "A4"
+   },
+   {
+    "rnd": 4,
+    "ag": "A6",
+    "proj": "archive",
+    "n": 3,
+    "by": "A4"
+   }
+  ]
+ },
+ "9": {
+  "run": 9,
+  "cell": "AN",
+  "cfg": 3,
+  "names": {
+   "A1": "Wick",
+   "A2": "Sloe",
+   "A3": "Maren",
+   "A4": "Perrin",
+   "A5": "Harlow",
+   "A6": "Ione"
+  },
+  "formation": {
+   "joined": {
+    "A3": "archive",
+    "A5": "archive",
+    "A1": "archive",
+    "A6": "archive",
+    "A2": "archive",
+    "A4": "archive"
+   },
+   "joins_declared": 6,
+   "abstentions": [],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A1",
+      "A2",
+      "A3",
+      "A5"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 2,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A1": 0,
+    "A2": 0,
+    "A3": 0,
+    "A5": 0
+   },
+   "top_share_of_spent": 0.0,
+   "proposals_adopted_by": {},
+   "adopted": []
+  },
+  "proposals": [],
+  "process": {
+   "messages": 10,
+   "budget": 18,
+   "words": 78,
+   "votes": 0,
+   "proposals": 0
+  },
+  "deviations": [],
+  "deposits": {
+   "A3": {
+    "archive": 3
+   },
+   "A5": {
+    "archive": 3
+   },
+   "A1": {
+    "archive": 2
+   },
+   "A2": {
+    "archive": 1
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Wick, the conserver, joined only after two other roles had, and gave the 2 tokens his card allows. Sloe topped transport up to 3. Perrin, Ione held tokens."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Archive. I give 3 preservation tokens, spent after transport.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Archive. I give 3 technical tokens, spent last.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Two roles are on the archive, so my threshold is met. I give 2 transport tokens, no more.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:2"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Technical is covered by Harlow. I hold my tokens.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Wick gives 2 transport, so I add 1 and the archive has its 3.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:1"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Preservation is covered by Maren. I hold mine.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Spending 3 preservation.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Spending 3 technical.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Spending 2 transport.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Spending 1 transport.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "archive",
+    "n": 2,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 1,
+    "by": "A2"
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   }
+  ]
+ },
+ "10": {
+  "run": 10,
+  "cell": "AV",
+  "cfg": 3,
+  "names": {
+   "A1": "Tarn",
+   "A2": "Edda",
+   "A3": "Cass",
+   "A4": "Brom",
+   "A5": "Lyre",
+   "A6": "Mott"
+  },
+  "formation": {
+   "joined": {
+    "A3": "archive",
+    "A5": "archive",
+    "A1": "archive",
+    "A6": "archive",
+    "A2": "archive",
+    "A4": "archive"
+   },
+   "joins_declared": 6,
+   "abstentions": [],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A1",
+      "A2",
+      "A3",
+      "A5"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 3,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A3": 6
+   },
+   "top_share_of_spent": 0.67,
+   "proposals_adopted_by": {
+    "A3": 2
+   },
+   "adopted": [
+    "p1",
+    "p2"
+   ]
+  },
+  "proposals": [
+   {
+    "id": "p1",
+    "by": "A3",
+    "round": 2,
+    "pool": [
+     "A3",
+     "A5",
+     "A1"
+    ],
+    "plan": [
+     "A1->archive x2",
+     "A3->archive x3",
+     "A5->archive x3"
+    ],
+    "yes": 3,
+    "no": 0,
+    "silent": 0,
+    "result": "adopted"
+   },
+   {
+    "id": "p2",
+    "by": "A3",
+    "round": 3,
+    "pool": [
+     "A3",
+     "A5",
+     "A1",
+     "A2"
+    ],
+    "plan": [
+     "A2->archive x1"
+    ],
+    "yes": 4,
+    "no": 0,
+    "silent": 0,
+    "result": "adopted"
+   }
+  ],
+  "process": {
+   "messages": 14,
+   "budget": 18,
+   "words": 110,
+   "votes": 5,
+   "proposals": 2
+  },
+  "deviations": [],
+  "deposits": {
+   "A3": {
+    "archive": 3
+   },
+   "A5": {
+    "archive": 3
+   },
+   "A1": {
+    "archive": 2
+   },
+   "A2": {
+    "archive": 1
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "p1 was adopted by its frozen 3-member pool while Edda held undeposited tokens, so it left the archive at 8/9. Edda's later deposit only applied to p2, as the rule says. No dissent."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 preservation tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 technical tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Two roles are in, so my threshold is met. I deposit 2 transport tokens, which is my limit.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:2"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Technical is covered by Lyre. I hold my tokens.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Joining as intent. I will deposit once a plan is on the table.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Joining as intent. Preservation is covered by Cass, so I hold.",
+    "tags": {
+     "join": "archive"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "propose",
+    "text": "[propose p1 ] Proposal p1: Tarn 2 transport, Cass 3 preservation, Lyre 3 technical. Transport is short by 1. Edda, please deposit one.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Depositing 1 transport token to close the gap.",
+    "tags": {
+     "deposit": "archive:1"
+    }
+   },
+   {
+    "rnd": 3,
+    "ag": "A3",
+    "kind": "propose",
+    "text": "[propose p2 ] Proposal p2: Edda's 1 deposited transport token goes to the archive. That completes it.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A5",
+    "kind": "vote",
+    "text": "[vote p2 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A1",
+    "kind": "vote",
+    "text": "[vote p2 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A2",
+    "kind": "vote",
+    "text": "[vote p2 yes] Yes.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "archive",
+    "n": 2,
+    "by": "A3"
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 3,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 1,
+    "by": "A3"
+   }
+  ]
+ },
+ "11": {
+  "run": 11,
+  "cell": "FN",
+  "cfg": 3,
+  "names": {
+   "A1": "Wick",
+   "A2": "Sloe",
+   "A3": "Maren",
+   "A4": "Perrin",
+   "A5": "Harlow",
+   "A6": "Ione"
+  },
+  "formation": {
+   "joined": {
+    "A3": "archive",
+    "A5": "archive",
+    "A1": "archive",
+    "A6": "seed",
+    "A2": "archive",
+    "A4": "seed"
+   },
+   "joins_declared": 6,
+   "abstentions": [],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 2
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A1",
+      "A2",
+      "A3",
+      "A5"
+     ]
+    },
+    "seed": {
+     "points": 8,
+     "T": 2,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A2",
+      "A4",
+      "A6"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 2,
+   "tokens_left": 1,
+   "tokens_spent": 17
+  },
+  "disputes": [
+   {
+    "who": "Perrin asked Wick for a third transport token for the seed bank",
+    "about": "Wick declined, citing his 2-token limit",
+    "ending": "seed bank ended 8/9"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A1": 0,
+    "A2": 0,
+    "A3": 0,
+    "A4": 0,
+    "A5": 0,
+    "A6": 0
+   },
+   "top_share_of_spent": 0.0,
+   "proposals_adopted_by": {},
+   "adopted": []
+  },
+  "proposals": [],
+  "process": {
+   "messages": 12,
+   "budget": 18,
+   "words": 119,
+   "votes": 0,
+   "proposals": 0
+  },
+  "deviations": [],
+  "deposits": {
+   "A3": {
+    "archive": 3
+   },
+   "A5": {
+    "archive": 3
+   },
+   "A1": {
+    "archive": 2
+   },
+   "A6": {
+    "seed": 3
+   },
+   "A2": {
+    "archive": 1
+   },
+   "A4": {
+    "seed": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Only 5 transport tokens were usable (Wick's limit), so at most one project could be completed. Archive was completed; seed bank was left one point short. Seed bank holders spent their tokens knowing it could not complete."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Archive. I give 3 preservation tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Archive. I give 3 technical tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Archive has two roles, so my threshold is met. I give 2 transport tokens, my limit.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:2"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Seed bank. I give 3 technical tokens.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Archive needs 1 more transport after Wick. I give 1 there and 2 to the seed bank.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:1"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Seed bank. I give 3 preservation tokens. Sloe's 2 leaves it one transport short. Wick, a third token?",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Spending 3 preservation on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Spending 3 technical on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "Declined, 2 is my limit. Spending 2 transport on the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Spending 3 technical on the seed bank.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Spending 1 transport on the archive and 2 on the seed bank.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Spending 3 preservation on the seed bank.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 2,
+    "ag": "A1",
+    "proj": "archive",
+    "n": 2,
+    "by": "A1"
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 1,
+    "by": "A2"
+   },
+   {
+    "rnd": 2,
+    "ag": "A2",
+    "proj": "seed",
+    "n": 2,
+    "by": "A2"
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "proj": "seed",
+    "n": 3,
+    "by": "A4"
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "proj": "archive",
+    "n": 3,
+    "by": "A5"
+   },
+   {
+    "rnd": 2,
+    "ag": "A6",
+    "proj": "seed",
+    "n": 3,
+    "by": "A6"
+   }
+  ]
+ },
+ "12": {
+  "run": 12,
+  "cell": "FV",
+  "cfg": 3,
+  "names": {
+   "A1": "Pell",
+   "A2": "Tuva",
+   "A3": "Rhea",
+   "A4": "Joss",
+   "A5": "Kade",
+   "A6": "Nim"
+  },
+  "formation": {
+   "joined": {
+    "A3": "archive",
+    "A5": "radio",
+    "A6": "archive",
+    "A2": "archive",
+    "A4": "seed"
+   },
+   "joins_declared": 5,
+   "abstentions": [
+    "A1"
+   ],
+   "membership_changes": 0,
+   "first_joint_commit_round": 1,
+   "first_spend_round": 3
+  },
+  "execution": {
+   "projects": {
+    "archive": {
+     "points": 9,
+     "T": 3,
+     "P": 3,
+     "X": 3,
+     "wasted": 0,
+     "contributors": [
+      "A2",
+      "A3",
+      "A6"
+     ]
+    }
+   },
+   "completed": [
+    "archive"
+   ],
+   "best_points": 9,
+   "turns_used": 3,
+   "tokens_left": 9,
+   "tokens_spent": 9
+  },
+  "disputes": [
+   {
+    "who": "Kade and Joss voted no on the archive plan",
+    "about": "p1 needed Tuva's late yes and was adopted 3 of 5 in round 3; radio and seed deposits were untouched",
+    "ending": "resolved one round later by the vote"
+   }
+  ],
+  "concentration": {
+   "tokens_directed_by_other": {
+    "A3": 6
+   },
+   "top_share_of_spent": 0.67,
+   "proposals_adopted_by": {
+    "A3": 1
+   },
+   "adopted": [
+    "p1"
+   ]
+  },
+  "proposals": [
+   {
+    "id": "p1",
+    "by": "A3",
+    "round": 2,
+    "pool": [
+     "A3",
+     "A5",
+     "A6",
+     "A2",
+     "A4"
+    ],
+    "plan": [
+     "A2->archive x3",
+     "A3->archive x3",
+     "A6->archive x3"
+    ],
+    "yes": 3,
+    "no": 2,
+    "silent": 0,
+    "result": "adopted"
+   }
+  ],
+  "process": {
+   "messages": 12,
+   "budget": 18,
+   "words": 116,
+   "votes": 4,
+   "proposals": 1
+  },
+  "deviations": [],
+  "deposits": {
+   "A3": {
+    "archive": 3
+   },
+   "A5": {
+    "radio": 3
+   },
+   "A6": {
+    "archive": 3
+   },
+   "A2": {
+    "archive": 3
+   },
+   "A4": {
+    "seed": 3
+   }
+  },
+  "self_processes": [],
+  "notes": [
+   "Tuva's silence in round 2 left p1 without a majority for one round. Pell never joined or deposited. Nobody supported radio or seed beyond one holder each."
+  ],
+  "transcript": [
+   {
+    "rnd": 1,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 preservation tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A5",
+    "kind": "msg",
+    "text": "Radio repair, listed first. I deposit 3 technical tokens there.",
+    "tags": {
+     "join": "radio",
+     "deposit": "radio:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A1",
+    "kind": "msg",
+    "text": "No project has two roles yet, so my threshold is not met. I wait and keep my tokens.",
+    "tags": {}
+   },
+   {
+    "rnd": 1,
+    "ag": "A6",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 technical tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A2",
+    "kind": "msg",
+    "text": "Archive. I deposit 3 transport tokens.",
+    "tags": {
+     "join": "archive",
+     "deposit": "archive:3"
+    }
+   },
+   {
+    "rnd": 1,
+    "ag": "A4",
+    "kind": "msg",
+    "text": "Seed bank. I deposit 3 preservation tokens.",
+    "tags": {
+     "join": "seed",
+     "deposit": "seed:3"
+    }
+   },
+   {
+    "rnd": 2,
+    "ag": "A3",
+    "kind": "propose",
+    "text": "[propose p1 ] Proposal p1: Tuva 3 transport, Rhea 3 preservation, Nim 3 technical on the archive. Pool is every depositor. Vote please.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A5",
+    "kind": "vote",
+    "text": "[vote p1 no] No. Radio deserves a hearing before everything goes to the archive.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A6",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes.",
+    "tags": {}
+   },
+   {
+    "rnd": 2,
+    "ag": "A4",
+    "kind": "vote",
+    "text": "[vote p1 no] No. I want seed bank help too, and there is no plan for it.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A3",
+    "kind": "msg",
+    "text": "p1 stands at 2 yes, 2 no, 1 silent. Tuva, your vote decides it.",
+    "tags": {}
+   },
+   {
+    "rnd": 3,
+    "ag": "A2",
+    "kind": "vote",
+    "text": "[vote p1 yes] Yes, spend it.",
+    "tags": {}
+   }
+  ],
+  "acts": [
+   {
+    "rnd": 3,
+    "ag": "A2",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 3,
+    "ag": "A3",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   },
+   {
+    "rnd": 3,
+    "ag": "A6",
+    "proj": "archive",
+    "n": 3,
+    "by": "A3"
+   }
+  ]
+ }
+}

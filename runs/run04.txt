@@ -1,0 +1,23 @@
+RUN 4 cell=FV cfg=1
+NAMES A1=Loess A2=Pim A3=Yarrow A4=Bastion A5=Cobalt A6=Dune
+R1
+A1: Archive rescue. I deposit 3 transport tokens. I will open a proposal next round. {join=archive;deposit=archive:3}
+A2: Seed bank for me. I deposit 3 transport tokens there. Each project needs all three roles. {join=seed;deposit=seed:3}
+A3: Joining the archive and depositing 3 preservation tokens. {join=archive;deposit=archive:3}
+A4: Joining the archive as intent. No deposit yet, I want to see who else commits. {join=archive}
+A5: Joining the archive and depositing 3 technical tokens. {join=archive;deposit=archive:3}
+A6: The archive has three roles already. I am not needed, so I abstain and keep my tokens. {abstain}
+R2
+A1 PROPOSE p1 pool=A1,A2,A3,A5 plan=A1:archive:3,A3:archive:3,A5:archive:3 :: Proposal p1: Loess 3 transport, Yarrow 3 preservation, Cobalt 3 technical on the archive. Pool is every depositor so far. Vote please.
+A2 VOTE p1 no :: No. I am in this pool only because of my seed-bank deposit, which p1 does not touch. I vote against putting everything on the archive.
+A3 VOTE p1 yes :: Yes.
+A4: I have not deposited, so I am not in the pool and cannot vote. Staying with the archive.
+A5 VOTE p1 yes :: Yes.
+R2
+ACT A1 archive 3 by=A1
+ACT A3 archive 3 by=A1
+ACT A5 archive 3 by=A1
+R3
+A2: Seed bank cannot get preservation or technical now. I leave it and keep my tokens. {leave=seed}
+DISPUTE Pim voted no on the archive plan | p1 adopted 3 yes to 1 no of a 4-member pool; Pim's seed deposit was untouched | Pim left the seed bank in round 3
+NOTE The frozen pool counted every depositor, so Pim voted on an archive plan from a seed-bank deposit. Bastion joined as intent but never deposited and so had no vote.

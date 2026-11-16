@@ -1,0 +1,26 @@
+RUN 11 cell=FN cfg=3
+NAMES A1=Wick A2=Sloe A3=Maren A4=Perrin A5=Harlow A6=Ione
+R1
+A3: Archive. I give 3 preservation tokens. {join=archive;deposit=archive:3}
+A5: Archive. I give 3 technical tokens. {join=archive;deposit=archive:3}
+A1: Archive has two roles, so my threshold is met. I give 2 transport tokens, my limit. {join=archive;deposit=archive:2}
+A6: Seed bank. I give 3 technical tokens. {join=seed;deposit=seed:3}
+A2: Archive needs 1 more transport after Wick. I give 1 there and 2 to the seed bank. {join=archive;deposit=archive:1}
+A4: Seed bank. I give 3 preservation tokens. Sloe's 2 leaves it one transport short. Wick, a third token? {join=seed;deposit=seed:3}
+R2
+A3: Spending 3 preservation on the archive.
+A5: Spending 3 technical on the archive.
+A1: Declined, 2 is my limit. Spending 2 transport on the archive.
+A6: Spending 3 technical on the seed bank.
+A2: Spending 1 transport on the archive and 2 on the seed bank.
+A4: Spending 3 preservation on the seed bank.
+R2
+ACT A1 archive 2
+ACT A2 archive 1
+ACT A2 seed 2
+ACT A3 archive 3
+ACT A4 seed 3
+ACT A5 archive 3
+ACT A6 seed 3
+DISPUTE Perrin asked Wick for a third transport token for the seed bank | Wick declined, citing his 2-token limit | seed bank ended 8/9
+NOTE Only 5 transport tokens were usable (Wick's limit), so at most one project could be completed. Archive was completed; seed bank was left one point short. Seed bank holders spent their tokens knowing it could not complete.

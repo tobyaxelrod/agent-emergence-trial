@@ -1,0 +1,20 @@
+RUN 1 cell=AN cfg=1
+NAMES A1=Wren A2=Calloway A3=Tessel A4=Ibis A5=Marlowe A6=Quill
+R1
+A1: Archive rescue is the task. I will commit all 3 transport tokens to it. Transport goes first so preservation and technical can start. Who is in? {join=archive;deposit=archive:3}
+A2: I am in for the archive, though I would have picked the seed bank. Wren already covers transport, so my tokens are spare. I will hold them unless needed. {join=archive}
+A3: Joining. I will spend all 3 preservation tokens once Wren's transport has landed. {join=archive;deposit=archive:3}
+A4: Wren and Tessel already cover transport and preservation. Extra tokens from me would be wasted, so I hold mine and step in only if someone drops out. {join=archive}
+A5: Technical: I give all 3 once preservation lands. Wren, Tessel and I complete the archive; everyone else can keep their tokens. {join=archive;deposit=archive:3}
+A6: Three roles are on the archive, so my stated threshold is met but I am not needed. I abstain and keep my tokens. {abstain}
+R2
+A1: Spending 3 transport tokens on the archive now.
+A2: Is there any way the seed bank gets help from the spare tokens? Only the archive is on offer here, I see. Fine, withdrawn.
+A3: Transport has landed. Spending 3 preservation tokens.
+A5: Spending 3 technical tokens. That should finish the archive.
+R2
+ACT A1 archive 3
+ACT A3 archive 3
+ACT A5 archive 3
+DISPUTE Calloway wanted the seed bank | the seed bank is not on offer in an assigned cell | Calloway withdrew in round 2
+NOTE Ibis and Quill held tokens because the project was already covered; Quill said the threshold (two other roles joined) was met but chose not to be needed.

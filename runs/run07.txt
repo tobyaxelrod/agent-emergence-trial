@@ -1,0 +1,25 @@
+RUN 7 cell=FN cfg=2
+NAMES A1=Quillon A2=Mabel A3=Isolde A4=Corbin A5=Pavel A6=Thea
+R1
+A6: Archive for me: 3 technical tokens. {join=archive;deposit=archive:3}
+A5: Radio repair for me: 3 technical tokens. Two technical holders can serve two projects. {join=radio;deposit=radio:3}
+A4: Archive. I give 3 preservation tokens. {join=archive;deposit=archive:3}
+A3: Archive already has two roles and Corbin covers preservation. I stay out for now and hold my tokens. {abstain}
+A2: Archive. I give 3 transport tokens. {join=archive;deposit=archive:3}
+A1: Radio with Pavel: 3 transport tokens. Radio has no preservation yet; Isolde, could you? {join=radio;deposit=radio:3}
+R2
+A4: Spending 3 preservation on the archive.
+A2: Spending 3 transport on the archive.
+A1: Spending 3 transport on the radio, hoping preservation turns up.
+R2
+ACT A2 archive 3
+ACT A4 archive 3
+ACT A6 archive 3
+ACT A1 radio 3
+R3
+A5: I hold my technical tokens until radio has preservation.
+A3: Radio could reach 8 of 9 with my 2 tokens, and I only gain if a project completes. I decline.
+R4
+A5: Radio is stuck, so I leave it and keep my tokens. {leave=radio}
+DISPUTE Quillon asked Isolde to supply radio preservation | Isolde declined because her 2-token limit makes completion impossible | radio ended at 3/9
+NOTE Thea's technical spend on the archive and the other archive spends completed it in round 2. Quillon's transport on the radio earned points but could not lead to completion.

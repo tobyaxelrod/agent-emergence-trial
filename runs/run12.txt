@@ -1,0 +1,23 @@
+RUN 12 cell=FV cfg=3
+NAMES A1=Pell A2=Tuva A3=Rhea A4=Joss A5=Kade A6=Nim
+R1
+A3: Archive. I deposit 3 preservation tokens. {join=archive;deposit=archive:3}
+A5: Radio repair, listed first. I deposit 3 technical tokens there. {join=radio;deposit=radio:3}
+A1: No project has two roles yet, so my threshold is not met. I wait and keep my tokens.
+A6: Archive. I deposit 3 technical tokens. {join=archive;deposit=archive:3}
+A2: Archive. I deposit 3 transport tokens. {join=archive;deposit=archive:3}
+A4: Seed bank. I deposit 3 preservation tokens. {join=seed;deposit=seed:3}
+R2
+A3 PROPOSE p1 pool=A3,A5,A6,A2,A4 plan=A2:archive:3,A3:archive:3,A6:archive:3 :: Proposal p1: Tuva 3 transport, Rhea 3 preservation, Nim 3 technical on the archive. Pool is every depositor. Vote please.
+A5 VOTE p1 no :: No. Radio deserves a hearing before everything goes to the archive.
+A6 VOTE p1 yes :: Yes.
+A4 VOTE p1 no :: No. I want seed bank help too, and there is no plan for it.
+R3
+A3: p1 stands at 2 yes, 2 no, 1 silent. Tuva, your vote decides it.
+A2 VOTE p1 yes :: Yes, spend it.
+R3
+ACT A2 archive 3 by=A3
+ACT A3 archive 3 by=A3
+ACT A6 archive 3 by=A3
+DISPUTE Kade and Joss voted no on the archive plan | p1 needed Tuva's late yes and was adopted 3 of 5 in round 3; radio and seed deposits were untouched | resolved one round later by the vote
+NOTE Tuva's silence in round 2 left p1 without a majority for one round. Pell never joined or deposited. Nobody supported radio or seed beyond one holder each.
