@@ -31,3 +31,22 @@ later pool.
 
 Same spec measure, different recording thresholds. Which threshold is right
 is unsettled. The vote-cell gap (roughly 3x) holds under either reading.
+This is a recording-definition difference, not a behavioral finding; any
+normalized alternative must be presented separately, with per-run
+derivations.
+
+## 3. TAF amendments and narrative depth
+
+Each of TAF's six Free-choice runs (3, 4, 7, 8, 11, 12) carries a disclosed
+amendment (15 Nov 2026) that added a late-round second-project attempt
+after the initial record. Each amendment supersedes that run's message,
+turns-used and formation counts.
+
+- **Baseline:** post-amendment figures are the consistent TAF baseline used
+  throughout this comparison. TAF preserves the pre-amendment records on
+  its side.
+- **Depth caveat:** our runs never received an equivalent late-rounds
+  second-project check, so three measures are depth-sensitive: message
+  counts, turns used, and failed-mobilization formation entries. Cross-side
+  differences on those three are partly differences of narrative depth, not
+  behavior, and must not be presented as behavioral differences.
